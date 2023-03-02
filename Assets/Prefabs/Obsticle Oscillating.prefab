@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5192359960213030121
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1644788427306839144, guid: 3577bab42f1a19645ad6e7c9272befe1, type: 3}
+      propertyPath: m_Name
+      value: Obstacle BigOne Variant (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4894512263531073288, guid: 3577bab42f1a19645ad6e7c9272befe1, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4894512263531073288, guid: 3577bab42f1a19645ad6e7c9272befe1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 14.187569
+      objectReference: {fileID: 0}
+    - target: {fileID: 4894512263531073288, guid: 3577bab42f1a19645ad6e7c9272befe1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.652
+      objectReference: {fileID: 0}
+    - target: {fileID: 4894512263531073288, guid: 3577bab42f1a19645ad6e7c9272befe1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 6.0723
+      objectReference: {fileID: 0}
+    - target: {fileID: 4894512263531073288, guid: 3577bab42f1a19645ad6e7c9272befe1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4894512263531073288, guid: 3577bab42f1a19645ad6e7c9272befe1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 35.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 4894512263531073288, guid: 3577bab42f1a19645ad6e7c9272befe1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4894512263531073288, guid: 3577bab42f1a19645ad6e7c9272befe1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99033976
+      objectReference: {fileID: 0}
+    - target: {fileID: 4894512263531073288, guid: 3577bab42f1a19645ad6e7c9272befe1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.13866214
+      objectReference: {fileID: 0}
+    - target: {fileID: 4894512263531073288, guid: 3577bab42f1a19645ad6e7c9272befe1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4894512263531073288, guid: 3577bab42f1a19645ad6e7c9272befe1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4894512263531073288, guid: 3577bab42f1a19645ad6e7c9272befe1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -15.941
+      objectReference: {fileID: 0}
+    - target: {fileID: 4894512263531073288, guid: 3577bab42f1a19645ad6e7c9272befe1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4894512263531073288, guid: 3577bab42f1a19645ad6e7c9272befe1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5559729542801694317, guid: 3577bab42f1a19645ad6e7c9272befe1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 32223880fb72a404ea84cf98010375f7, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3577bab42f1a19645ad6e7c9272befe1, type: 3}
+--- !u!1 &6835762211914885249 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1644788427306839144, guid: 3577bab42f1a19645ad6e7c9272befe1, type: 3}
+  m_PrefabInstance: {fileID: 5192359960213030121}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &652999012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6835762211914885249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cbe9d6269b0a48408c3694bf2a06bd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementVector: {x: 40, y: 0, z: 0}
+  period: 5
